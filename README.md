@@ -65,7 +65,6 @@ https://www.kaggle.com/blastchar/telco-customer-churn
 ## Churn Distribution
 
 ![Churn Distribution](images/churn_distribution.png)
-
 Most customers do **not churn**, so the dataset is imbalanced.
 We solved this using **SMOTE**.
 
@@ -74,7 +73,6 @@ We solved this using **SMOTE**.
 ## Correlation Heatmap
 
 ![Correlation Heatmap](images/correlation_heatmap.png)
-
 The heatmap shows relationships between numerical features.
 
 Important observations:
@@ -86,8 +84,7 @@ Important observations:
 
 ## Feature Distribution
 
-![Feature Distribution](images/churn_features.png)
-
+![Numerical Features](images/numerical_boxplots.png)
 Observations:
 
 * Customers with **short tenure leave more often**
@@ -145,7 +142,6 @@ We trained four machine learning models:
 # 📊 Confusion Matrices
 
 ![Confusion Matrices](images/confusion_matrices.png)
-
 These charts show how well each model predicted churn and non-churn customers.
 
 ---
@@ -153,7 +149,6 @@ These charts show how well each model predicted churn and non-churn customers.
 # 🔍 Important Features
 
 ![Feature Importance](images/feature_importance.png)
-
 Top factors that affect churn:
 
 * Tenure
